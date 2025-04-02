@@ -8,11 +8,12 @@ import authRouter from './routes/auth.js';
 import cors from 'cors';
 import todoRouter from './routes/todoRouter.js';
 
-const frontendUrl = 'http://localhost:3000';
+const frontendUrl1 = 'http://localhost:3000';
+const frontendUrl2 = 'https://vosco-assignment-one.vercel.app/';
 
 app.use(
   cors({
-    origin: [frontendUrl],
+    origin: [frontendUrl1, frontendUrl2],
     credentials: true,
   }),
 );
