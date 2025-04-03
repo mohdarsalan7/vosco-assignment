@@ -128,29 +128,13 @@ npm install
 
 ### Backend Deployment (Heroku)
 
-1. Create a Heroku account and install CLI
-2. Login and create new app:
-   ```bash
-   heroku login
-   heroku create your-app-name
-   ```
-3. Set environment variables in Heroku dashboard
-4. Deploy:
-   ```bash
-   git push heroku main
-   ```
+1. Create a Render account.
+2. Login and deploy:
 
 ### Frontend Deployment (Vercel)
 
-1. Install Vercel CLI:
-   ```bash
-   npm install -g vercel
-   ```
-2. Login and deploy:
-   ```bash
-   vercel login
-   vercel
-   ```
+1. Create a Vercel account.
+2. Login and deploy.
 
 ## Troubleshooting
 
@@ -187,14 +171,14 @@ MIT
 
 This README includes:
 
-1. **Comprehensive setup instructions** for both backend and frontend
-2. **Environment configuration** details
-3. **Firebase setup** guidance
-4. **Project structure** overview
-5. **API documentation**
-6. **Deployment instructions** for Heroku and Vercel
-7. **Troubleshooting** common issues
-8. **License and contributor** information
+1. Comprehensive setup instructions for both backend and frontend
+2. Environment configuration details
+3. Firebase setup guidance
+4. Project structure overview
+5. API documentation
+6. Deployment instructions for Heroku and Vercel
+7. Troubleshooting common issues
+8. License and contributor information
 
 You can customize this further by:
 - Adding screenshots of your application
