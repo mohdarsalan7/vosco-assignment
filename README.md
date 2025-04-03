@@ -15,8 +15,8 @@ A complete authentication system with Firebase, React (Next.js), and Node.js/Exp
 
 **Frontend:**
 
-- Next.js 14
-- React 18
+- Next.js 15
+- React 19
 - Tailwind CSS
 - Firebase Authentication
 - Axios (for API calls)
@@ -96,16 +96,6 @@ npm install
 3. **Environment Configuration**
 
    Create a `.env.local` file in the frontend directory:
-
-   ```env
-   NEXT_PUBLIC_FIREBASE_API_KEY=your-firebase-api-key
-   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-project.firebaseapp.com
-   NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
-   NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-bucket.appspot.com
-   NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
-   NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
-   NEXT_PUBLIC_BACKEND_URL=http://localhost:5000
-   ```
 
 4. **Run the frontend**
    ```bash
