@@ -13,8 +13,7 @@ const frontendUrl2 = 'https://vosco-assignment-one.vercel.app/';
 
 app.use(
   cors({
-    origin: [frontendUrl1, frontendUrl2],
-    credentials: true,
+    origin: [frontendUrl2],
   }),
 );
 
